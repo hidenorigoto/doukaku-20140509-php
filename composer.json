@@ -1,0 +1,18 @@
+{
+    "name": "doukaku/lesson",
+    "description":" ",
+    "keywords":[
+    ],
+    "config":{
+        "bin-dir": "bin"
+    },
+    "license": "BSD-3-Clause",
+    "autoload":{
+        "psr-4":{
+            "Doukaku\\Lesson\\": "src/"
+        }
+    },
+    "require": {
+        "ginq/ginq": "0.2.1"
+    }
+}
